@@ -32,6 +32,8 @@ function isValidUrl(url) {
     return pattern.test(url);
 };
 
+
+
 $(document).ready(function() {
 	$(".form-signin").submit(function() {
 		var url = document.getElementById("url").value;
